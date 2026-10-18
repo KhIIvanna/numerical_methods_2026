@@ -217,7 +217,7 @@ if __name__ == "__main__":
     plt.show()
 
     # Екстраполяція прогнозу температури на наступні 3 місяці
-    x_future = np.array([25, 26, 27])
+    x_future = np.array([7, 8, 9])
     y_future = eval_polynomial(x_future, opt_coefs)
 
     print("\nЕкстраполяція прогнозу температури на 3 місяці")
