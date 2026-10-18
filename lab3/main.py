@@ -3,6 +3,8 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
 #1 Програма для табуляції заданих даних про температуру
 def generate_and_save_data(file_name="data.csv"):
     x0, xn = 1.0, 24.0
